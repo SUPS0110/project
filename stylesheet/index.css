@@ -3,24 +3,29 @@
 }
 
 body{
-    width: 1000px;
-    background:#fafafa;
+     background-color: #fafafa;
     position: relative;
 }
-
-.logo{
-    width: 30px;
-    height: 40px;
+.main1{
     align-items: left;
-
+    position: fixed;
+    background-color: #ffffff;
+    border: #dbdbdb;
+    width: 200px;
+    height: 100%;
+    padding: 5px 10px 0px 5px;
 }
-.logopic{
-    height: 30px;
-    margin-top: 5px;
+
+.logo img{  
+    display: inline-block;
+    height: 55px;
+    width: 125px;
+    padding: 10px 0px 0px 20px;
 }
 .option{
+    display: inline-block;
     margin-top: 50px;
-    height: 30px;
+    height: 50px;
     font-size: 250;
     font-style: normal;
     
@@ -29,92 +34,87 @@ body{
 
 .photo{
     
-    width: 40px;
+    width: 50px;
     height:40px;
 }
 .main{
-    width: 100%;
-    padding: 40px 0;
-    justify-content: center;
-    margin-top: 50px;
-}
-.center{
-    width: 70%;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-gap: 30px;
-}
-.left{
-    display: flex;
-    flex-direction: column;
-}
-.status{
-    width: 100%;
-    height: 120px;
-    background: #ffffff;
-    border-radius: 2px;
-    border: 1px solid #dfdfdf;
-    padding: 10px;
-    display: flex;
+    width: 300;
+    height: 500;
     align-items: center;
+    padding: 25px 0px 0px 50px;
+    justify-content: space-between;
+    background-color: #fafafa;
+    border: #dbdbdb;
+    margin-left: 450px;
+    margin-right: 300px;
+}
+.storyline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+ .status{
+    padding-top: 30%
+    background-color   #ffffff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #dfdfdf;
+    position: sticky;
+    top: 5px;
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+      
+}
+.status img{
+    width: 40px;
+    height: 30px;
+    border-radius: 5%;
+    top: 10px;
+    left: 10px;
+}
+.status p{
+    position: absolute;
 }
 .post{
-    width: 100%;
-    height: 600px;
-    background: #ffffff;
-    border: 1px solid #dfdfdf;
-    margin-top: 40;
-}
-.info{
-    width: 100%;
-    height:60px;
-    display: flex;
-    align-items: center;
-    padding:0 20px;
-}
-.info.username{
-    width: auto;
-    color: black;
-    font-size: 14px;
-    margin-left: 10px;
-}
-.info.user{
-    display: flex;
-    align-items: center;
-}
-.info .profile{
-    height: 40px;
-    width: 40px;
-    padding: 0;
-    background: none;
-}
-.info .post-image{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
-.right{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
     padding: 20px;
+    background-color: #ffffff;
+}
+.post img{
+    width: 50px;
+    height:40px;
+}
+
+.post span{
+    display: inline;
+}
+.post-image{
+display: block;
+    width: 600px;
+    height: 800px;
+
+}
+.main2{
+    padding: 0x 50px ;
+    height: 100%;
+    position: relative;
+    align-items: right;
+    margin-left: 850px;
+    margin-right: 25px;
 
 }
 .suggest{
     width: fit-content;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 10px;
 }
-.suggest .pp{
-background: none;
-width: 40px;
-height: 40px;
-margin-right: 10px;
-}
-.suggest:first-child.pp{
-    width: 70px;
-    height: 70px;
-}
-.suggest .pp img{
+.suggest .pc img{
+    width: 22px;
+    height: 22px;
     border: none;
 }
 .suggest .username{
