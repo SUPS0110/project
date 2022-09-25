@@ -37,6 +37,8 @@ body{
 
 }
 .option b{
+    position: absolute;
+    align-items: center;
     padding-left: 25px;
     width: 60px;
     height: 24px;
@@ -126,6 +128,7 @@ height:24px;}
     width: 319px;
     height: 298px;
     position: relative;
+    align-items: center;
    display: inline-block;
     padding-right: 250px;
     transform: translateX( -50%);
@@ -137,6 +140,8 @@ height:24px;}
     width: 319px;
     height: 48;
     display: flex;
+    display: absolute;
+    align-items: center;
     
 }
 .suggest span{
@@ -145,10 +150,11 @@ height:24px;}
 width: 35px;
 height: 11px;
 }
-.suggest .pc img{
+ .pc img{
     width: 40px;
     height: 40px;
     padding-right: 5px;
+    border-radius: 70%;
 }
  .username{
     font-weight: 500;
@@ -160,7 +166,7 @@ height: 11px;
 height: 32px;}
 .sg {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     font-size: 14px;
     color: #717171;
     font-weight: 500;
@@ -169,10 +175,11 @@ height: 32px;}
     width: 319px;
     height: 44px;
     padding-right: 250x;
+    
 
 }
 .sg span{
-    margin-left: 80px;
+    margin-left: 65px;
     color: #484848;
 }
 
