@@ -162,9 +162,10 @@ height:24px;}
 .add{
     border-radius: 2px;
     border-color: #cccccc;
+    display: flex;
+    display: absolute;
     align-items: center;
-    display: inline-block;
-}
+    }
 .add span{
     color: #989898;
 }
