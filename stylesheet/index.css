@@ -75,6 +75,7 @@ height:24px;}
     background-color: #ffffff;
     width: 480px; 
     height:110px; 
+    margin-bottom: 10%;
 
 }
  .status{
@@ -93,7 +94,6 @@ height:24px;}
     position: absolute;
 }
 .post{
-    margin-top: 10%;
     padding-bottom: 10%;
     display: inline-block;
     width: 470px;
@@ -130,6 +130,7 @@ height:24px;}
     display: inline-block;
     justify-content: center;
     padding-left: 10px;
+    margin-bottom: 10px;
 }
 .like{
     display: inline-block;
