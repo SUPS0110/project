@@ -242,3 +242,13 @@ height: 32px;}
     color:#dfdfdf;
 
 }
+@media only screen and (max-width: 400px){
+    .main1{
+        display:none;
+    }
+}
+    @media only screen and (max-width: 600px){
+    .main2{
+        display: none;
+    }
+}
