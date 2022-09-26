@@ -167,6 +167,7 @@ height:24px;}
     align-items: center;
     }
 .add span{
+    padding-right: 5px;
     color: #989898;
 }
 .gap{
