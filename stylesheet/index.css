@@ -82,8 +82,6 @@ height:24px;}
     padding-bottom: 10px;
     height: 100px;
     width: 80px;
-    /*background-color   #ffffff;
-    width: 95px;   */
 }
 .status img{
     width: 60px;
@@ -96,6 +94,7 @@ height:24px;}
 }
 .post{
     margin-top: 10%;
+    padding-bottom: 10%;
     display: inline-block;
     width: 470px;
     height: 56px;
@@ -123,6 +122,59 @@ height:24px;}
     height: 385px;
 
 }
+.ds{
+    position: relative;
+    background-color: #ffffff;
+    width: 470px;
+    height: 210px;
+    display: inline-block;
+    justify-content: center;
+    padding-left: 10px;
+}
+.like{
+    display: inline-block;
+    align-items: center;
+    padding: 2px 5px 2px 0px;
+}
+.like i{
+   display: inline;
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+}
+.like p{
+    display: inline;
+    margin-left: 335px;
+}
+.number{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cm{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #8989AB;
+}
+.date{
+    color: #B9B9B9;
+}
+.add{
+    border-radius: 2px;
+    border-color: #cccccc;
+    align-items: center;
+    display: inline-block;
+}
+.add span{
+    color: #989898;
+}
+.gap{
+    margin-left: 270px;
+}
+.add i{
+    width: 24px;
+    height: 24px;
+}
+
 .main2{
     padding: 50px ;
     width: 319px;
@@ -132,10 +184,8 @@ height:24px;}
    display: inline-block;
     padding-right: 250px;
     transform: translateX( -50%);
-    
+    }
 
-
-}
 .suggest{
     width: 319px;
     height: 48;
