@@ -28,13 +28,13 @@ body{
     top: 10px;
 }
 .option{
+    cursor: pointer;
     display: inline-block;
     margin-top: 50px;
     height: 50px;
     font-size: 250;
     font-style: normal;
-    
-
+    position: relative;
 }
 .option b{
     position: absolute;
@@ -51,12 +51,54 @@ height:24px;}
 .option i{
     width:24px;
 height:24px;}
-
-
 .photo{
-    
     width: 35px;
     height:30px;
+}
+
+.photo1{
+    position: relative;
+    justify-content: right;
+    cursor: pointer;
+    width: 35px;
+    height:30px;
+}
+.sub-menu{
+    position: absolute;
+   top: 100%;
+    left :1%;
+    width: 245px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu.open{
+    position: absolute;
+    max-height:300px;
+}
+.list{
+    background: #cccccc;
+padding:10px;
+height: 100%;
+}
+.link{
+    display: flex;
+    align-items: center;
+    color: #199ff6;
+}
+.link p{
+    width: 100%;
+
+}
+.link span{
+font-size: 25px;
+transition: transform 0.5s;
+}
+.link:hover span{
+    transform : translateX(5px);
+}
+.link:hover p{
+    font-weight:700;
 }
 .main{
     width: 470px;
@@ -65,8 +107,9 @@ height:24px;}
     padding: 25px 0px 0px 50px;
     background-color: #fafafa;
     border: #dbdbdb;
-    margin-left: 45%;
+    margin-left: 39%;
     transform: translateX( -50%);
+    position: relative;
 }
 .storyline{
     display: flex;
@@ -177,6 +220,7 @@ height:24px;}
 }
 
 .main2{
+    position: absolute;
     padding: 50px ;
     width: 319px;
     height: 298px;
