@@ -5,6 +5,8 @@ function toggleMenu()
 }
 
 
+let imageno =1;
+        displayimg(imageno);
 
 function nextimg(n){
     displayimg(imageno += n)
